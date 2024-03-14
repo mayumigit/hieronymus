@@ -21,7 +21,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v6
         name: Build & push Docker image to ghcr.io 
         with:
-          image: hieronymus/hironymus-web
+          image: hieronymus/hieronymus-web
           tags: latest
           registry: ghcr.io
           multiPlatform: true
